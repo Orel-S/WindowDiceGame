@@ -15,13 +15,14 @@ public class Die : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //This will need to be removed later.
         if (Input.GetKeyDown(KeyCode.F))
         {
             Roll();
         }
     }
 
-    void Roll()
+    public void Roll()
     {
         currFace = Faces[Random.Range(0, Faces.Length - 1)];
         switch (currFace)
@@ -46,5 +47,10 @@ public class Die : MonoBehaviour
                 break;
         }
         
+    }
+
+    public int getCurrFace()
+    {
+        return currFace;
     }
 }
