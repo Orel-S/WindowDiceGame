@@ -7,10 +7,13 @@ public class CameraSwap : MonoBehaviour
 
     public Camera[] cameras;
     private int currentCameraIndex;
+    public GameObject landyboiimwillandimdumb;
 
     // Start is called before the first frame update
     void Start()
     {
+
+        landyboiimwillandimdumb = GameObject.Find("Land");
 
         currentCameraIndex = 0;
 
@@ -35,21 +38,16 @@ public class CameraSwap : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.C))
         {
-            currentCameraIndex++;
-            Debug.Log("C button has been pressed. Switching to the next camera");
-            if (currentCameraIndex < cameras.Length)
-            {
-                cameras[currentCameraIndex - 1].gameObject.SetActive(false);
+
+
+            Debug.Log("C button has been pressed. Switching to rolled camera");
+
+                cameras[currentCameraIndex].gameObject.SetActive(false);
+                currentCameraIndex = landyboiimwillandimdumb.GetComponent<Die>().getCurrFace();
+
                 cameras[currentCameraIndex].gameObject.SetActive(true);
                 Debug.Log("Camera with name: " + cameras[currentCameraIndex].GetComponent<Camera>().name + ", is now enabled");
-            }
-            else
-            {
-                cameras[currentCameraIndex - 1].gameObject.SetActive(false);
-                currentCameraIndex = 0;
-                cameras[currentCameraIndex].gameObject.SetActive(true);
-                Debug.Log("Camera with name: " + cameras[currentCameraIndex].GetComponent<Camera>().name + ", is now enabled");
-            }
+  
         }
 
     }
