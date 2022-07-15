@@ -6,7 +6,6 @@ public class Die : MonoBehaviour
 {
     [SerializeField] private int[] Faces = { 1, 2, 3, 4, 5, 6 };
     [SerializeField] private int currFace;
-    private GameObject parentObj = GameObject.Find("Die");
     // Start is called before the first frame update
     void Start()
     {
