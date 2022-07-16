@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class CameraSwap : MonoBehaviour
+public class CameraController : MonoBehaviour
 {
 
     public Camera[] cameras;
@@ -19,7 +19,7 @@ public class CameraSwap : MonoBehaviour
         progressBar = GameObject.Find("ProgressBar");
         //Hide progress bar
         progressBar.transform.localScale = new Vector3(0, 0, 0);
-        die.GetComponent<MinigameChancemaker>().PauseMinigameTimer();
+        die.GetComponent<MinigameController>().PauseMinigameTimer();
         currentCameraIndex = 0;
 
         //Turn all cameras off, except the first default one
@@ -41,7 +41,7 @@ public class CameraSwap : MonoBehaviour
     void Update()
     {
         //Start the minigame!
-        if (die.GetComponent<MinigameChancemaker>().IsMinigameTime())
+        if (die.GetComponent<MinigameController>().IsMinigameTime())
         {
             Debug.Log("Minigame should begin now!");
             //This should select from a list, and activate them.
@@ -79,7 +79,7 @@ public class CameraSwap : MonoBehaviour
 
     void swapToRolledCam()
     {
-        die.GetComponent<MinigameChancemaker>().ResumeMinigameTimer();
+        die.GetComponent<MinigameController>().ResumeMinigameTimer();
         Debug.Log("prog bar should be true now, curr value is " + progressBar.activeSelf);
         Debug.Log("C button has been pressed. Switching to rolled camera");
         //sets last camera to off, turns next camera on based on value from die roll 

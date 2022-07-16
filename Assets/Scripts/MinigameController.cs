@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MinigameChancemaker : MonoBehaviour
+public class MinigameController : MonoBehaviour
 {
 
     private float increaseRate = 0.01f;
