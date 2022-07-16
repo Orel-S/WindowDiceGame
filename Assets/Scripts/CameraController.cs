@@ -55,7 +55,7 @@ public class CameraController : MonoBehaviour
             {
                 die.GetComponent<Die>().Roll();
                 dieResult = die.GetComponent<Die>().getCurrFace();                      //these two lines super sus
-                die.GetComponent<DieSpritePosition>().dieToFront(/*dieResult*/2);            //^
+                die.GetComponent<DieSpritePosition>().dieToFront(dieResult);            //^
                 Debug.Log("C button has been pressed. Switching to rolled camera");     
                 Invoke("swapToRolledCam", 2);
                 
@@ -64,7 +64,7 @@ public class CameraController : MonoBehaviour
             {
                 die.GetComponent<Die>().Roll();
                 dieResult = die.GetComponent<Die>().getCurrFace();                      //these two lines super sus
-                die.GetComponent<DieSpritePosition>().dieToFront(/*dieResult*/2);            //^
+                die.GetComponent<DieSpritePosition>().dieToFront(dieResult);            //^
                 Debug.Log("C button has been pressed. Switching to rolled camera");
                 Invoke("swapToRolledCam", 2);
             }
