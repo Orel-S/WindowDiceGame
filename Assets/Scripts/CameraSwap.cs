@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class CameraSwap : MonoBehaviour
 {
@@ -39,16 +41,20 @@ public class CameraSwap : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
 
-
-            Debug.Log("C button has been pressed. Switching to rolled camera");
-
-                cameras[currentCameraIndex].gameObject.SetActive(false);
-                currentCameraIndex = landyboiimwillandimdumb.GetComponent<Die>().getCurrFace();
-
-                cameras[currentCameraIndex].gameObject.SetActive(true);
-                Debug.Log("Camera with name: " + cameras[currentCameraIndex].GetComponent<Camera>().name + ", is now enabled");
+            Invoke("swippitySwappityGetOffMyProperty", 2); 
   
         }
 
     }
+
+    void swippitySwappityGetOffMyProperty()
+    {
+        Debug.Log("C button has been pressed. Switching to rolled camera");
+        //sets last camera to off, turns next camera on based on value from die roll 
+        cameras[currentCameraIndex].gameObject.SetActive(false);
+        currentCameraIndex = landyboiimwillandimdumb.GetComponent<Die>().getCurrFace();
+        cameras[currentCameraIndex].gameObject.SetActive(true);
+        Debug.Log("Camera with name: " + cameras[currentCameraIndex].GetComponent<Camera>().name + ", is now enabled");
+    }
+
 }

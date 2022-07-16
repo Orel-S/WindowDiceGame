@@ -51,6 +51,7 @@ public class Die : MonoBehaviour
 
     public int getCurrFace()
     {
+        Debug.Log("die rolled");
         return currFace;
     }
 }
