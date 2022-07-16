@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class ProgressBar : MonoBehaviour
 {
     private Slider slider;
-    private float targetProgress = 0;
     public float FillSpeed = 0;
     private float defaultFillSpeed = 0.05f;
     private void Awake()
@@ -18,7 +17,6 @@ public class ProgressBar : MonoBehaviour
     void Start()
     {
         FillSpeed = defaultFillSpeed;
-        IncrementProgress(1f);
     }
 
     // Update is called once per frame
@@ -43,15 +41,10 @@ public class ProgressBar : MonoBehaviour
         //{
         //    Reset();
         //}
-        if (slider.value < targetProgress)
+        if (slider.value < 1)
         {
             slider.value += FillSpeed * Time.deltaTime;
         }
-    }
-
-    public void IncrementProgress(float newProgress)
-    {
-        targetProgress = slider.value + newProgress;
     }
 
     public void PauseProgress()
@@ -63,6 +56,11 @@ public class ProgressBar : MonoBehaviour
     public void ContProgress()
     {
         FillSpeed = defaultFillSpeed;
+    }
+
+    public void setSpeed(float speed)
+    {
+        FillSpeed = speed;
     }
 
     //Sloppy code, figure out this weird reset shit
