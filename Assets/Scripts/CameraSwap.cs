@@ -44,6 +44,7 @@ public class CameraSwap : MonoBehaviour
         if (die.GetComponent<MinigameChancemaker>().IsMinigameTime())
         {
             Debug.Log("Minigame should begin now!");
+            //This should select from a list, and activate them.
         }
 
         //ew yucky gross nested if
@@ -51,7 +52,6 @@ public class CameraSwap : MonoBehaviour
         {
             if (progressBar.transform.localScale == new Vector3(0, 0, 0))
             {
-                Debug.Log("obj no exist");
                 die.GetComponent<Die>().Roll();
                 Invoke("swapToRolledCam", 2);
                 
