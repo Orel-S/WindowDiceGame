@@ -9,7 +9,7 @@ public class CameraController : MonoBehaviour
 
     public Camera[] cameras;
     private int currentCameraIndex;
-    public GameObject die, progressBar;
+    public GameObject die, progressBar, duckMinigame;
     private int dieResult;
 
     // Start is called before the first frame update
@@ -18,6 +18,8 @@ public class CameraController : MonoBehaviour
 
         die = GameObject.Find("Land");
         progressBar = GameObject.Find("ProgressBar");
+        duckMinigame = GameObject.Find("duck");
+        duckMinigame.SetActive(false);
         //Hide progress bar
         progressBar.transform.localScale = new Vector3(0, 0, 0);
         die.GetComponent<MinigameController>().PauseMinigameTimer();
@@ -45,6 +47,16 @@ public class CameraController : MonoBehaviour
         if (die.GetComponent<MinigameController>().IsMinigameTime())
         {
             Debug.Log("Minigame should begin now!");
+            //Should roll to determine minigame here
+            duckMinigame.SetActive(true);
+            if (duckMinigame.GetComponent<DuckGame>().gameIsWon)
+            {
+                die.GetComponent<MinigameController>().ResetMinigameTimer();
+                duckMinigame.GetComponent<DuckGame>().gameIsWon = false;
+                duckMinigame.SetActive(false);
+                die.GetComponent<MinigameController>().ResumeMinigameTimer();
+                //progressBar.GetComponent<ProgressBar>().ContProgress();
+            }
             //This should select from a list, and activate them.
         }
 

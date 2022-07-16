@@ -7,7 +7,8 @@ public class MinigameController : MonoBehaviour
 
     private float increaseRate = 0.01f;
     private float currRate = 0.01f; //was 0.0001f
-    private float currOdds = 0;
+    //temp, switch back to 0
+    private float currOdds = 0.5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +21,7 @@ public class MinigameController : MonoBehaviour
         //add rand here
         currOdds += currRate;
         currOdds += (currRate * Random.Range(1, 5)) * Time.deltaTime;
-        Debug.Log(currOdds);
+        //Debug.Log(currOdds);
     }
 
     //hint for Will, code should look something like this:

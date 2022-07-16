@@ -7,7 +7,7 @@ public class Eyeball : MonoBehaviour
 {
     private Slider slider;
     public float FillSpeed = 0;
-    private float defaultFillSpeed = 1.6f;
+    private float defaultFillSpeed = 3.2f;
     private bool isIncreasing = true;
     private float minWin = 0.4f;
     private float maxWin = 0.6f;

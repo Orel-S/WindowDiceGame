@@ -12,7 +12,7 @@ public class CamerDragAway : MonoBehaviour
     private float startY, startX;
     private float maxRotVal = 0.20f;
     public GameObject miniGameTime;
-
+    private bool minigameOn = false;
 
 
 
@@ -31,7 +31,7 @@ public class CamerDragAway : MonoBehaviour
 
         if (miniGameTime.GetComponent<MinigameController>().IsMinigameTime()){
 
-
+            minigameOn = true;
             switch (currFace)
             {
                 case 1:
@@ -78,7 +78,11 @@ public class CamerDragAway : MonoBehaviour
             }
 
         }
-        
+        else if (minigameOn)
+        {
+            Reset();
+            minigameOn = false;
+        }
 
         /* if (Input.GetKey("a"))
         {
@@ -96,5 +100,11 @@ public class CamerDragAway : MonoBehaviour
 
         transform.rotation = rot;
 
+    }
+
+    public void Reset()
+    {
+        rot.y = startY;
+        rot.x = startX;
     }
 }
