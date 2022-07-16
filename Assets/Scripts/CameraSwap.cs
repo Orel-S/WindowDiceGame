@@ -38,12 +38,20 @@ public class CameraSwap : MonoBehaviour
     void Update()
     {
 
+
         if (Input.GetKeyDown(KeyCode.C))
         {
 
             Invoke("swippitySwappityGetOffMyProperty", 2); 
   
+        } 
+        else if (Input.GetKeyDown(KeyCode.V))
+        {
+            cameras[currentCameraIndex].gameObject.SetActive(false);
+            cameras[1].gameObject.SetActive(true);
+
         }
+
 
     }
 
