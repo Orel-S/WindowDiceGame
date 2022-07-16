@@ -9,14 +9,14 @@ public class CameraSwap : MonoBehaviour
 
     public Camera[] cameras;
     private int currentCameraIndex;
-    public GameObject landyboiimwillandimdumb;
+    public GameObject die, progressBar;
 
     // Start is called before the first frame update
     void Start()
     {
 
-        landyboiimwillandimdumb = GameObject.Find("Land");
-
+        die = GameObject.Find("Land");
+        progressBar = GameObject.Find("ProgressBar");
         currentCameraIndex = 0;
 
         //Turn all cameras off, except the first default one
@@ -42,7 +42,7 @@ public class CameraSwap : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
 
-            Invoke("swippitySwappityGetOffMyProperty", 2); 
+            Invoke("swapToRolledCam", 2);
   
         } 
         else if (Input.GetKeyDown(KeyCode.V))
@@ -55,13 +55,14 @@ public class CameraSwap : MonoBehaviour
 
     }
 
-    void swippitySwappityGetOffMyProperty()
+    void swapToRolledCam()
     {
         Debug.Log("C button has been pressed. Switching to rolled camera");
         //sets last camera to off, turns next camera on based on value from die roll 
         cameras[currentCameraIndex].gameObject.SetActive(false);
-        currentCameraIndex = landyboiimwillandimdumb.GetComponent<Die>().getCurrFace();
+        currentCameraIndex = die.GetComponent<Die>().getCurrFace();
         cameras[currentCameraIndex].gameObject.SetActive(true);
+        progressBar.GetComponent<ProgressBar>().Reset();
         Debug.Log("Camera with name: " + cameras[currentCameraIndex].GetComponent<Camera>().name + ", is now enabled");
     }
 

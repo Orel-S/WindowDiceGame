@@ -32,10 +32,10 @@ public class ProgressBar : MonoBehaviour
         {
             PauseProgress();
         }
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            Reset();
-        }
+        //if (Input.GetKeyDown(KeyCode.C))
+        //{
+        //    Reset();
+        //}
         if (slider.value < targetProgress)
         {
             slider.value += FillSpeed * Time.deltaTime;
