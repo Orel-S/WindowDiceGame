@@ -16,10 +16,10 @@ public class Die : MonoBehaviour
     void Update()
     {
         //This will need to be removed later.
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            Roll();
-        }
+        //if (Input.GetKeyDown(KeyCode.F))
+        //{
+        //    Roll();
+        //}
     }
 
     public void Roll()

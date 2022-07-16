@@ -41,7 +41,7 @@ public class CameraSwap : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.C))
         {
-
+            die.GetComponent<Die>().Roll();
             Invoke("swapToRolledCam", 2);
   
         } 
