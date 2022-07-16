@@ -17,9 +17,10 @@ public class DieSpritePosition : MonoBehaviour
         diceywicey = GameObject.Find("Land");
 
         //set all dice back except 1
-        for (int i = 0; i<6; i++)
+        for (int i = 1; i<6; i++)
         {
-            dice[i].gameObject.transform.position = new Vector3(9, 3, -3);
+            Debug.Log("die face one should be in front");
+            dice[i].transform.position = new Vector3(0,0,11);
         }
 
     }
@@ -33,7 +34,12 @@ public class DieSpritePosition : MonoBehaviour
     public void dieToFront(int dieResult)
     {
 
-        dice[dieResult].gameObject.transform.position = new Vector3();
+        Debug.Log("die face should update");
+        for (int i = 0; i < 6; i++)
+        {
+            dice[i].transform.position = new Vector3(0, 0, 11);
+        }
+        dice[dieResult].transform.position = new Vector3(9, 3, 8);
 
     }
 
