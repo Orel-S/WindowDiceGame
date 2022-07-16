@@ -35,4 +35,17 @@ public class MinigameChancemaker : MonoBehaviour
         }
         return false;
     }
+
+    public void PauseMinigameTimer()
+    {
+        increaseRate = 0;
+        currRate = 0;
+        currOdds = 0;
+    }
+
+    public void ResumeMinigameTimer()
+    {
+        increaseRate = 0.01f;
+        currRate = 0.0001f;
+    }
 }
