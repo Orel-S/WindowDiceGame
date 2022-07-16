@@ -9,8 +9,8 @@ public class Eyeball : MonoBehaviour
     public float FillSpeed = 0;
     private float defaultFillSpeed = 3.2f;
     private bool isIncreasing = true;
-    private float minWin = 0.4f;
-    private float maxWin = 0.6f;
+    private float minWin = 0.35f;
+    private float maxWin = 0.65f;
     public bool playerHasWon = false;
 
     private void Awake()
@@ -30,7 +30,7 @@ public class Eyeball : MonoBehaviour
     void Update()
     {
         //Check for winning
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && FillSpeed != 0)
         {
             if(slider.value >= minWin && slider.value <= maxWin)
             {
