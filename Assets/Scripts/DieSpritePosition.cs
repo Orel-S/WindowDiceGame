@@ -39,7 +39,7 @@ public class DieSpritePosition : MonoBehaviour
         {
             dice[i].transform.position = new Vector3(0, 0, 11);
         }
-        dice[dieResult].transform.position = new Vector3(9, 3, 8);
+        dice[dieResult - 1].transform.position = new Vector3(9, 3, 8);
 
     }
 
