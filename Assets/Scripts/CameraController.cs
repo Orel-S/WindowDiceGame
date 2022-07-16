@@ -9,8 +9,9 @@ public class CameraController : MonoBehaviour
 
     public Camera[] cameras;
     private int currentCameraIndex;
-    public GameObject die, progressBar, duckMinigame;
+    public GameObject die, progressBar, currentMinigame;
     private int dieResult;
+    private bool isPlayingMinigame = false;
 
     // Start is called before the first frame update
     void Start()
@@ -18,8 +19,9 @@ public class CameraController : MonoBehaviour
 
         die = GameObject.Find("Land");
         progressBar = GameObject.Find("ProgressBar");
-        duckMinigame = GameObject.Find("duck");
-        duckMinigame.SetActive(false);
+        //These two should be adjusted
+        currentMinigame = GameObject.Find("duck");
+        currentMinigame.SetActive(false);
         //Hide progress bar
         progressBar.transform.localScale = new Vector3(0, 0, 0);
         die.GetComponent<MinigameController>().PauseMinigameTimer();
@@ -46,18 +48,18 @@ public class CameraController : MonoBehaviour
         //Start the minigame!
         if (die.GetComponent<MinigameController>().IsMinigameTime())
         {
-            Debug.Log("Minigame should begin now!");
-            //Should roll to determine minigame here
-            duckMinigame.SetActive(true);
-            if (duckMinigame.GetComponent<DuckGame>().gameIsWon)
+            if (!isPlayingMinigame)
             {
-                die.GetComponent<MinigameController>().ResetMinigameTimer();
-                duckMinigame.GetComponent<DuckGame>().gameIsWon = false;
-                duckMinigame.SetActive(false);
-                die.GetComponent<MinigameController>().ResumeMinigameTimer();
-                //progressBar.GetComponent<ProgressBar>().ContProgress();
+                //Should roll to determine minigame here
+                Debug.Log("Minigame should begin now!");
+                isPlayingMinigame = true;
+                runMinigame(currentMinigame);
             }
-            //This should select from a list, and activate them.
+            else if (gameIsWon(currentMinigame))
+            {
+                isPlayingMinigame = false;
+                resetMinigame(currentMinigame);
+            }
         }
 
         //ew yucky gross nested if
@@ -114,4 +116,21 @@ public class CameraController : MonoBehaviour
         //BANDAID FIX, DO NOT DELETE
     }
 
+    private void runMinigame(GameObject game)
+    {
+        game.SetActive(true);
+    }
+
+    private bool gameIsWon(GameObject game)
+    {
+        return game.GetComponent<DuckGame>().gameIsWon;
+    }
+
+    private void resetMinigame(GameObject game)
+    {
+        die.GetComponent<MinigameController>().ResetMinigameTimer();
+        currentMinigame.GetComponent<DuckGame>().gameIsWon = false;
+        currentMinigame.SetActive(false);
+        die.GetComponent<MinigameController>().ResumeMinigameTimer();
+    }
 }
