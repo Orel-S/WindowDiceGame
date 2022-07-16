@@ -24,6 +24,13 @@ public class ProgressBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            slider.value = 1;
+            Debug.Log("slider bar should be full");
+        }
+
         if (Input.GetKeyDown(KeyCode.PageUp))
         {
             ContProgress();

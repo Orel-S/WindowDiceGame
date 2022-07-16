@@ -36,7 +36,7 @@ public class CamerDragAway : MonoBehaviour
                 if(Math.Abs(rot.y - startY) >= maxRotVal)
                 {
                     currFace = Faces[UnityEngine.Random.Range(0, Faces.Length - 1)];
-                    Debug.Log(currFace);
+                    //Debug.Log(currFace);
                 }
                 break;
             case 2: 
@@ -44,7 +44,7 @@ public class CamerDragAway : MonoBehaviour
                 if(Math.Abs(rot.y - startY) >= maxRotVal)
                 {
                     currFace = Faces[UnityEngine.Random.Range(0, Faces.Length - 1)];
-                    Debug.Log(currFace);
+                    //Debug.Log(currFace);
                 }
                 break;
             case 3:
@@ -52,14 +52,14 @@ public class CamerDragAway : MonoBehaviour
                 if (Math.Abs(rot.x - startX) >= maxRotVal)
                 {
                     currFace = Faces[UnityEngine.Random.Range(0, Faces.Length - 1)];
-                    Debug.Log(currFace);
+                    //Debug.Log(currFace);
                 }
                 break;
             case 4: rot.x += panSpeed * (Time.deltaTime / 7);
                 if(Math.Abs(rot.x - startX) >= maxRotVal)
                 {
                     currFace = Faces[UnityEngine.Random.Range(0, Faces.Length - 1)];
-                    Debug.Log(currFace);
+                    //Debug.Log(currFace);
                 }
                 break;
 

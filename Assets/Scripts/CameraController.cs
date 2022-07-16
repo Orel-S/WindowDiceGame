@@ -10,6 +10,7 @@ public class CameraController : MonoBehaviour
     public Camera[] cameras;
     private int currentCameraIndex;
     public GameObject die, progressBar;
+    private int dieResult;
 
     // Start is called before the first frame update
     void Start()
@@ -53,12 +54,18 @@ public class CameraController : MonoBehaviour
             if (progressBar.transform.localScale == new Vector3(0, 0, 0))
             {
                 die.GetComponent<Die>().Roll();
+                dieResult = die.GetComponent<Die>().getCurrFace();                      //these two lines super sus
+                die.GetComponent<DieSpritePosition>().dieToFront(/*dieResult*/2);            //^
+                Debug.Log("C button has been pressed. Switching to rolled camera");     
                 Invoke("swapToRolledCam", 2);
                 
             }
             else if (progressBar.GetComponent<Slider>().value >= progressBar.GetComponent<Slider>().maxValue)
             {
                 die.GetComponent<Die>().Roll();
+                dieResult = die.GetComponent<Die>().getCurrFace();                      //these two lines super sus
+                die.GetComponent<DieSpritePosition>().dieToFront(/*dieResult*/2);            //^
+                Debug.Log("C button has been pressed. Switching to rolled camera");
                 Invoke("swapToRolledCam", 2);
             }
             else
@@ -81,7 +88,7 @@ public class CameraController : MonoBehaviour
     {
         die.GetComponent<MinigameController>().ResumeMinigameTimer();
         Debug.Log("prog bar should be true now, curr value is " + progressBar.activeSelf);
-        Debug.Log("C button has been pressed. Switching to rolled camera");
+        
         //sets last camera to off, turns next camera on based on value from die roll 
         cameras[currentCameraIndex].gameObject.SetActive(false);
         currentCameraIndex = die.GetComponent<Die>().getCurrFace();
