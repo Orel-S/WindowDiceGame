@@ -92,6 +92,7 @@ public class CameraController : MonoBehaviour
         //ew yucky gross nested if
         if (Input.GetKeyDown(KeyCode.C) && !isPlayingMinigame && eventSystem.GetComponent<GameController>().isDone)
         {
+            die.GetComponent<MinigameController>().ResetMinigameTimer();
             if (progressBar.transform.localScale == new Vector3(0, 0, 0))
             {
                 die.GetComponent<Die>().Roll();

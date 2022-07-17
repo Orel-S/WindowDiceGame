@@ -23,6 +23,14 @@ public class MainMenu : MonoBehaviour
 
     public void QuitGame()
     {
+        GameObject gom = GameObject.Find("GoodbyeSound");
+        gom.GetComponent<AudioSource>().Play();
+
+        Invoke("actualQuit", 3);
+    }
+
+    private void actualQuit()
+    {
         Application.Quit();
     }
 }
