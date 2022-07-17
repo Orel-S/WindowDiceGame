@@ -398,8 +398,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb78b3e84b960341935aa5d2e1572ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: {fileID: 11400000, guid: 1418b28d7940386419655429a8004e84, type: 2}
+  currentScene: {fileID: 11400000, guid: 1735784776717f7439d145dc39776950, type: 2}
   bottomBar: {fileID: 1109306072}
+  die: {fileID: 0}
 --- !u!224 &1109306071 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8715930409540447110, guid: 3ceebab68c1930b44acc7ea698142c00, type: 3}
@@ -579,5 +580,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8715930409540447113, guid: 3ceebab68c1930b44acc7ea698142c00, type: 3}
+      propertyPath: currentScene
+      value: 
+      objectReference: {fileID: 11400000, guid: 1735784776717f7439d145dc39776950, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ceebab68c1930b44acc7ea698142c00, type: 3}

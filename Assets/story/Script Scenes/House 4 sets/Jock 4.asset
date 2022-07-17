@@ -16,19 +16,19 @@ MonoBehaviour:
   - text: 'Hey, um do you have a second? '
     speaker: {fileID: 11400000, guid: dff3180f1e64a7a42b31ab92f696549f, type: 2}
   - text: Sure *stops shadow boxing*
-    speaker: {fileID: 11400000, guid: f562d6af5195ef14d8acab177552d7a8, type: 2}
+    speaker: {fileID: 11400000, guid: 50a9c94d7e4dd364cbcee7f588960710, type: 2}
   - text: "Do you have any extra gloves? I\u2019m looking for some stress relief
       *sigh*"
     speaker: {fileID: 11400000, guid: dff3180f1e64a7a42b31ab92f696549f, type: 2}
   - text: Um no sorry
-    speaker: {fileID: 11400000, guid: f562d6af5195ef14d8acab177552d7a8, type: 2}
+    speaker: {fileID: 11400000, guid: 50a9c94d7e4dd364cbcee7f588960710, type: 2}
   - text: Oh no worries, sorry for bothering
     speaker: {fileID: 11400000, guid: dff3180f1e64a7a42b31ab92f696549f, type: 2}
   - text: No worries, sorry
-    speaker: {fileID: 11400000, guid: f562d6af5195ef14d8acab177552d7a8, type: 2}
+    speaker: {fileID: 11400000, guid: 50a9c94d7e4dd364cbcee7f588960710, type: 2}
   - text: ...
     speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: '*continues shadow boxing* Hey Doogle, how to comfort someone grieving. '
-    speaker: {fileID: 11400000, guid: f562d6af5195ef14d8acab177552d7a8, type: 2}
+    speaker: {fileID: 11400000, guid: 50a9c94d7e4dd364cbcee7f588960710, type: 2}
   background: {fileID: 0}
   nextScene: {fileID: 0}

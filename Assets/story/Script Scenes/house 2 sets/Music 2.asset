@@ -17,23 +17,23 @@ MonoBehaviour:
       the plant person. A little friendship chain. "
     speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: 'How are you holding up? '
-    speaker: {fileID: 11400000, guid: 16d3bc8d7b78345488d4899634c0b008, type: 2}
+    speaker: {fileID: 11400000, guid: c0367580406792a4a82d0ade843773e4, type: 2}
   - text: 'I was gonna ask you the same thing. '
     speaker: {fileID: 11400000, guid: dff3180f1e64a7a42b31ab92f696549f, type: 2}
   - text: "I mean\u2026 my girlfriend\u2019s dead. I don\u2019t know\u2026 I\u2019m
       obviously sad, this is a tragedy but\u2026 I\u2019m not as sad as I should
       be. "
-    speaker: {fileID: 11400000, guid: 16d3bc8d7b78345488d4899634c0b008, type: 2}
+    speaker: {fileID: 11400000, guid: c0367580406792a4a82d0ade843773e4, type: 2}
   - text: There is no right way to grieve.
     speaker: {fileID: 11400000, guid: dff3180f1e64a7a42b31ab92f696549f, type: 2}
   - text: "No I know it\u2019s just\u2026 you know our relationship was rocky and
       those were complicated emotions and now this I just. I don\u2019t know what
       I feel\u2026 "
-    speaker: {fileID: 11400000, guid: 16d3bc8d7b78345488d4899634c0b008, type: 2}
+    speaker: {fileID: 11400000, guid: c0367580406792a4a82d0ade843773e4, type: 2}
   - text: "I know I\u2019m\u2026 I\u2019m sorry"
     speaker: {fileID: 11400000, guid: dff3180f1e64a7a42b31ab92f696549f, type: 2}
   - text: "No don\u2019t be it\u2019s fine\u2026 you being here just to listen is
       great, thank you. "
-    speaker: {fileID: 11400000, guid: 16d3bc8d7b78345488d4899634c0b008, type: 2}
+    speaker: {fileID: 11400000, guid: c0367580406792a4a82d0ade843773e4, type: 2}
   background: {fileID: 0}
   nextScene: {fileID: 0}

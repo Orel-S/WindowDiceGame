@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Music
   m_EditorClassIdentifier: 
   speakerName: The Musician
-  textColor: {r: 0.003921569, g: 1, b: 0.2627451, a: 0}
+  textColor: {r: 0.4146446, g: 1, b: 0, a: 1}

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Nerd
   m_EditorClassIdentifier: 
   speakerName: The Nerd
-  textColor: {r: 0.9333334, g: 0.96470594, b: 0.1254902, a: 0}
+  textColor: {r: 0.97383654, g: 1, b: 0, a: 1}

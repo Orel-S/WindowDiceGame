@@ -10,21 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5f00fa657dcc1445930ea81a4b42ab6, type: 3}
-  m_Name: Music 3
+  m_Name: all speaker test
   m_EditorClassIdentifier: 
   sentences:
-  - text: 'A picture of the music guy with the victim. The picture looks pretty old
-      they must have been together for a while. '
+  - text: asdf
     speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
-  - text: "Man I can\u2019t believe she\u2019s actually gone. "
-    speaker: {fileID: 11400000, guid: c0367580406792a4a82d0ade843773e4, type: 2}
-  - text: "I\u2019m sorry this- I\u2019m sorry I gotta go"
+  - text: jock
+    speaker: {fileID: 11400000, guid: 50a9c94d7e4dd364cbcee7f588960710, type: 2}
+  - text: plkant
     speaker: {fileID: 11400000, guid: dff3180f1e64a7a42b31ab92f696549f, type: 2}
-  - text: 'Oh um ok.. let me know if you need- '
+  - text: party
+    speaker: {fileID: 11400000, guid: 0253398b4f2c27246b47cc757def8495, type: 2}
+  - text: nerd
+    speaker: {fileID: 11400000, guid: 09633011f60d163498d531e915848881, type: 2}
+  - text: music
     speaker: {fileID: 11400000, guid: c0367580406792a4a82d0ade843773e4, type: 2}
-  - text: '*door slams*'
-    speaker: {fileID: 0}
-  - text: "That was\u2026 strange. "
-    speaker: {fileID: 11400000, guid: c0367580406792a4a82d0ade843773e4, type: 2}
-  background: {fileID: 0}
-  nextScene: {fileID: 0}
+  - text: cosplay
+    speaker: {fileID: 11400000, guid: 809c552ee125ffa469d543020b758904, type: 2}
+  background: {fileID: 21300000, guid: b0551ae08aedb3c47a87442bc7b75262, type: 3}
+  nextScene: {fileID: 11400000}

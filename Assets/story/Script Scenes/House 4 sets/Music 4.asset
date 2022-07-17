@@ -20,18 +20,18 @@ MonoBehaviour:
   - text: 'Hey are you busy? '
     speaker: {fileID: 11400000, guid: 0253398b4f2c27246b47cc757def8495, type: 2}
   - text: "No what\u2019s up?"
-    speaker: {fileID: 11400000, guid: 16d3bc8d7b78345488d4899634c0b008, type: 2}
+    speaker: {fileID: 11400000, guid: c0367580406792a4a82d0ade843773e4, type: 2}
   - text: "I just\u2026 miss her. "
     speaker: {fileID: 11400000, guid: 0253398b4f2c27246b47cc757def8495, type: 2}
   - text: "Ya I get that, I\u2019m sorry"
-    speaker: {fileID: 11400000, guid: 16d3bc8d7b78345488d4899634c0b008, type: 2}
+    speaker: {fileID: 11400000, guid: c0367580406792a4a82d0ade843773e4, type: 2}
   - text: "Ya no it\u2019s fine I\u2019m just trying to cope *sniff*"
     speaker: {fileID: 11400000, guid: 0253398b4f2c27246b47cc757def8495, type: 2}
   - text: 'I get that, can I help? '
-    speaker: {fileID: 11400000, guid: 16d3bc8d7b78345488d4899634c0b008, type: 2}
+    speaker: {fileID: 11400000, guid: c0367580406792a4a82d0ade843773e4, type: 2}
   - text: 'Not really, just looking for anything to hold on to. '
     speaker: {fileID: 11400000, guid: 0253398b4f2c27246b47cc757def8495, type: 2}
   - text: "Ya\u2026"
-    speaker: {fileID: 11400000, guid: 16d3bc8d7b78345488d4899634c0b008, type: 2}
+    speaker: {fileID: 11400000, guid: c0367580406792a4a82d0ade843773e4, type: 2}
   background: {fileID: 0}
   nextScene: {fileID: 0}
