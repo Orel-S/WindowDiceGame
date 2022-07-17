@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5f00fa657dcc1445930ea81a4b42ab6, type: 3}
+  m_Name: Jock 3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: 
+    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
+  - text: "Hi mom. I\u2019m good how are you? Ya things have been strange\u2026 Ever
+      since Daisy passed things have been quiet yet loud. Ya I\u2019m trying to be
+      there for her. I\u2019m trying to figure out how to support. Ya you\u2019re
+      right. We\u2019ll tell dad I say hi. Love you, bye."
+    speaker: {fileID: 11400000, guid: f562d6af5195ef14d8acab177552d7a8, type: 2}
+  - text: ...
+    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
+  - text: 'Hey yo, pick up the phone Vic. Since when do you let it ring for so long? '
+    speaker: {fileID: 11400000, guid: f562d6af5195ef14d8acab177552d7a8, type: 2}
+  - text: "Oh so this behaviour from the Plant Parent isn\u2019t normal\u2026 interesting. "
+    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
+  background: {fileID: 0}
+  nextScene: {fileID: 0}
