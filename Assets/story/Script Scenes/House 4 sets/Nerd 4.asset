@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5f00fa657dcc1445930ea81a4b42ab6, type: 3}
+  m_Name: Nerd 4
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: 
+    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
+  - text: ': Packing his bag for an early day, I guess. That makes sense, he seems
+      like every second of his life is planned out.'
+    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
+  - text: "Hey um\u2026 do you have any extra paint left from those figures you painted? "
+    speaker: {fileID: 11400000, guid: dff3180f1e64a7a42b31ab92f696549f, type: 2}
+  - text: 'Um ya why? '
+    speaker: {fileID: 11400000, guid: 09633011f60d163498d531e915848881, type: 2}
+  - text: "Can I have some? I\u2019m looking for something to do and thought painting
+      some pots might be fun (anxious laugh)"
+    speaker: {fileID: 11400000, guid: dff3180f1e64a7a42b31ab92f696549f, type: 2}
+  - text: "Oh uh sure, here you can just leave it outside my room when you\u2019re
+      done."
+    speaker: {fileID: 11400000, guid: 09633011f60d163498d531e915848881, type: 2}
+  - text: Thanks.
+    speaker: {fileID: 11400000, guid: dff3180f1e64a7a42b31ab92f696549f, type: 2}
+  background: {fileID: 0}
+  nextScene: {fileID: 0}

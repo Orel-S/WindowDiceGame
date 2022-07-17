@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5f00fa657dcc1445930ea81a4b42ab6, type: 3}
+  m_Name: Jock 4
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: 
+    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
+  - text: 'Hey, um do you have a second? '
+    speaker: {fileID: 11400000, guid: dff3180f1e64a7a42b31ab92f696549f, type: 2}
+  - text: Sure *stops shadow boxing*
+    speaker: {fileID: 11400000, guid: f562d6af5195ef14d8acab177552d7a8, type: 2}
+  - text: "Do you have any extra gloves? I\u2019m looking for some stress relief
+      *sigh*"
+    speaker: {fileID: 11400000, guid: dff3180f1e64a7a42b31ab92f696549f, type: 2}
+  - text: Um no sorry
+    speaker: {fileID: 11400000, guid: f562d6af5195ef14d8acab177552d7a8, type: 2}
+  - text: Oh no worries, sorry for bothering
+    speaker: {fileID: 11400000, guid: dff3180f1e64a7a42b31ab92f696549f, type: 2}
+  - text: No worries, sorry
+    speaker: {fileID: 11400000, guid: f562d6af5195ef14d8acab177552d7a8, type: 2}
+  - text: ...
+    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
+  - text: '*continues shadow boxing* Hey Doogle, how to comfort someone grieving. '
+    speaker: {fileID: 11400000, guid: f562d6af5195ef14d8acab177552d7a8, type: 2}
+  background: {fileID: 0}
+  nextScene: {fileID: 0}

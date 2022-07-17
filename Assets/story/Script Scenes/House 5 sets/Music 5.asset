@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5f00fa657dcc1445930ea81a4b42ab6, type: 3}
+  m_Name: Music 5
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: 
+    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
+  - text: "I was just playing a gig, one gig and you\u2019re just gone. What the
+      hell I\u2019m. I\u2019m sorry you didn\u2019t deserve this. You should have
+      skipped work and come to my show, maybe then it wouldn\u2019t have happened. "
+    speaker: {fileID: 11400000, guid: 16d3bc8d7b78345488d4899634c0b008, type: 2}
+  - text: "So much writing that just doesn\u2019t feel right, the poor guy is trying
+      to get what he\u2019s thinking on paper. Man that\u2019s a lot of emotion to
+      process. "
+    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
+  background: {fileID: 0}
+  nextScene: {fileID: 0}

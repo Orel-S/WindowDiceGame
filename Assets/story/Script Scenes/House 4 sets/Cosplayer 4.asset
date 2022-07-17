@@ -10,14 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5f00fa657dcc1445930ea81a4b42ab6, type: 3}
-  m_Name: NewStoryScene 5
+  m_Name: Cosplayer 4
   m_EditorClassIdentifier: 
   sentences:
   - text: 
     speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
-  - text: 
+  - text: "Ya this guy is fully checked out of anything that is happening in the
+      house. He\u2019s ready to do his own thing. "
     speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
+  - text: "You like it? I just finished the shoulder piece. Hopefully it\u2019ll
+      stay up all night! When are we going? Ya ok I\u2019ll be ready then, just get
+      me out of here my roommates are so loud. You mind if I crash at your place
+      after? Amazing thank you! Alright just let me know when you\u2019re here! "
+    speaker: {fileID: 11400000, guid: 809c552ee125ffa469d543020b758904, type: 2}
   background: {fileID: 0}
   nextScene: {fileID: 0}

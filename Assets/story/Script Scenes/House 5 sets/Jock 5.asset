@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5f00fa657dcc1445930ea81a4b42ab6, type: 3}
+  m_Name: Jock 5
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: 
+    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
+  - text: "Does that say Scrapbooking 101? Why would sh- she wanted to help the victim\u2019s
+      friend put together a scrapbook. This girl may be quiet and stoic, but she
+      is genuinely trying to her the girl through this tough time. I only see support
+      from her, no motive to hurt the ones the party girl cares about."
+    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
+  - text: "I\u2019m sorry, I didn\u2019t mean to dump all of this on you-"
+    speaker: {fileID: 11400000, guid: 0253398b4f2c27246b47cc757def8495, type: 2}
+  - text: Please do, I wanna help
+    speaker: {fileID: 11400000, guid: f562d6af5195ef14d8acab177552d7a8, type: 2}
+  - text: Thank you, I need this, like, so much
+    speaker: {fileID: 11400000, guid: 0253398b4f2c27246b47cc757def8495, type: 2}
+  - text: "Then I\u2019m here"
+    speaker: {fileID: 11400000, guid: f562d6af5195ef14d8acab177552d7a8, type: 2}
+  - text: Thank you, thank you
+    speaker: {fileID: 11400000, guid: 0253398b4f2c27246b47cc757def8495, type: 2}
+  background: {fileID: 0}
+  nextScene: {fileID: 0}
