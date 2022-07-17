@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Part Girl 1
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "Hey! Ya I had a great time! I\u2019m doing fine, ya just taking it easy.
       Ya it\u2019ll be strange it\u2019s um, still new. Um I don\u2019t know if I\u2019ll
       go out tonight but I\u2019m totally down to go out soon! Oh my god yes I\u2019ll

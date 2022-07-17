@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Music 1
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: Sheet music? Oh wow we got a music guy here. I think there was something
       about the victim being connected to someone to do with music, is this who they
       were talking about?

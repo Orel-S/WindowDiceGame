@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Plant Parent 1
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "Woops I guess they missed that call, I mean I can\u2019t pick up every
       phone call I get either, sometimes you just step away for a second."
     speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}

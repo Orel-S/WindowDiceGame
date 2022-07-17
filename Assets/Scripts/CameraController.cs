@@ -143,7 +143,7 @@ public class CameraController : MonoBehaviour
         //TODO: CHANGE BG IMAGE HERE
         Debug.Log(die.GetComponent<Die>().RollsSoFar);
         Debug.Log(((die.GetComponent<Die>().RollsSoFar - 1) * 5) + currentCameraIndex);
-        eventSystem.GetComponent<GameController>().ChangeScene(scriptHolder.GetComponent<ScriptHolder>().storyScenes[((die.GetComponent<Die>().RollsSoFar - 1) * 5)  + currentCameraIndex]);
+        eventSystem.GetComponent<GameController>().ChangeScene(scriptHolder.GetComponent<ScriptHolder>().storyScenes[((die.GetComponent<Die>().RollsSoFar - 1) * 5)  + currentCameraIndex - 1]);
         progressBar.GetComponent<ProgressBar>().Reset();
         Debug.Log("Camera with name: " + cameras[currentCameraIndex].GetComponent<Camera>().name + ", is now enabled");
         //BANDAID FIX, DO NOT DELETE

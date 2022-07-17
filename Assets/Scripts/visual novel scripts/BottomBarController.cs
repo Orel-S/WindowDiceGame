@@ -31,6 +31,7 @@ public class BottomBarController : MonoBehaviour
     public void PlayNextSentence()
     {
         Debug.Log("play next sentence");
+        Debug.Log(currentScene.name);
         StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
         personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
         personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
@@ -66,5 +67,10 @@ public class BottomBarController : MonoBehaviour
                 break;
             }
         }
+    }
+
+    public void Reset()
+    {
+        sentenceIndex = -1;
     }
 }

@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Cosplayer 1
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "That music is\u2026 loud, what\u2019s he trying to drown out? "
     speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "Must be going out or practicing for something? I don\u2019t know but I

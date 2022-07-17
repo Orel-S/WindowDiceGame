@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Jock 1
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: Those are some very loved gloves; they must have seen a lot of training.
     speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "The overall feel of this room is very\u2026 minimalist. Not many personal

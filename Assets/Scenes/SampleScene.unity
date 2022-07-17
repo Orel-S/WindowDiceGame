@@ -605,7 +605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb78b3e84b960341935aa5d2e1572ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: {fileID: 11400000, guid: 1418b28d7940386419655429a8004e84, type: 2}
+  currentScene: {fileID: 0}
   bottomBar: {fileID: 1890326423}
   die: {fileID: 1926917880}
 --- !u!1 &172012825
@@ -2745,12 +2745,24 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c384d022bee644f479d77936583bf737, type: 2}
   - {fileID: 11400000, guid: ca0278f8ef7eca347bcadc8ff1e86b31, type: 2}
   - {fileID: 11400000, guid: bbd8dc21e7b0fc747b57b27e03d04e8e, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 91ed4ed3606cb8b46a735c4f6fb526b6, type: 2}
+  - {fileID: 11400000, guid: 0df7a902e53f24d4c8d094163e16b51f, type: 2}
+  - {fileID: 11400000, guid: 4916830265a01f744935d9af21642868, type: 2}
+  - {fileID: 11400000, guid: bd76fb3e732ad0d45b385586f1946fb1, type: 2}
+  - {fileID: 11400000, guid: 094f8a3dd5f121a49ba7d56bd386c61a, type: 2}
+  - {fileID: 11400000, guid: fe4a0cd8b8b6285408cc6b4597343d16, type: 2}
+  - {fileID: 11400000, guid: e75c635d58cf3424283f746e183c2c25, type: 2}
+  - {fileID: 11400000, guid: e7219a2ce26d3eb49829e820adb8cba6, type: 2}
+  - {fileID: 11400000, guid: 64751e925439c78449e58b3ae98af5b5, type: 2}
+  - {fileID: 11400000, guid: 1c23f93b3c658b14fb13a1cb23e08f73, type: 2}
+  - {fileID: 11400000, guid: 645a9439f71439947ba56b57d56bec94, type: 2}
+  - {fileID: 11400000, guid: 194712d1ee2fd9443a4145b3b47425e0, type: 2}
+  - {fileID: 11400000, guid: ac6d21b6050870845ad3a5fc6ec644dc, type: 2}
+  - {fileID: 11400000, guid: f9b720ebd08b790488e98098534e6411, type: 2}
+  - {fileID: 11400000, guid: 39dbf360157683e41973546b041a5a61, type: 2}
+  - {fileID: 11400000, guid: 0a860ce17ce395642b8e733b90775227, type: 2}
+  - {fileID: 11400000, guid: 8e0566b707b44b942b487fa6671e0777, type: 2}
+  - {fileID: 11400000, guid: 8eda282e50d3fae40a3a7f3c9f2105b3, type: 2}
 --- !u!4 &1513086973
 Transform:
   m_ObjectHideFlags: 0
