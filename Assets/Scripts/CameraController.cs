@@ -90,7 +90,7 @@ public class CameraController : MonoBehaviour
         }
 
         //ew yucky gross nested if
-        if (Input.GetKeyDown(KeyCode.C) && !isPlayingMinigame)
+        if (Input.GetKeyDown(KeyCode.C) && !isPlayingMinigame && eventSystem.GetComponent<GameController>().isDone)
         {
             if (progressBar.transform.localScale == new Vector3(0, 0, 0))
             {

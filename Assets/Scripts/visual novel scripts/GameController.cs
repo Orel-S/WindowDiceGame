@@ -7,6 +7,7 @@ public class GameController : MonoBehaviour
     public StoryScene currentScene;
     public BottomBarController bottomBar;
     public GameObject die;
+    public bool isDone = false;
     //[SerializeField] private StoryScene[] scenes = { null, null };
 
 
@@ -35,7 +36,8 @@ public class GameController : MonoBehaviour
             {
                 //ChangeScene(currentScene.nextScene);
                 Debug.Log("should see me");
-                ChangeScene(currentScene.nextScene);
+                isDone = true;
+                //ChangeScene(currentScene.nextScene);
             }
             bottomBar.PlayNextSentence();
         }
@@ -45,6 +47,7 @@ public class GameController : MonoBehaviour
     {
         Debug.Log("changing scenes");
         //currentScene.nextScene = scenes[/*die.GetComponent<Die>().getCurrFace()*/1]; 
+        isDone = false;
         bottomBar.PlayScene(next);
         /*if (!next)
         {
