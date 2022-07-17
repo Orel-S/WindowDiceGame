@@ -23,17 +23,39 @@ public class GameController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (bottomBar.IsCompleted())
-            {
-                if (bottomBar.IsLastSentence())
-                {
-                    Debug.Log("changing scenes");
-                    //currentScene.nextScene = scenes[/*die.GetComponent<Die>().getCurrFace()*/1]; 
-                    currentScene = currentScene.nextScene;
-                    bottomBar.PlayScene(currentScene);
-                }
-                bottomBar.PlayNextSentence();
-            }
+            nextSentence();
         }
+    }
+
+    public void nextSentence()
+    {
+        if (bottomBar.IsCompleted())
+        {
+            if (bottomBar.IsLastSentence())
+            {
+                //ChangeScene(currentScene.nextScene);
+                Debug.Log("should see me");
+                ChangeScene(currentScene.nextScene);
+            }
+            bottomBar.PlayNextSentence();
+        }
+    }
+
+    public void ChangeScene(StoryScene next = null)
+    {
+        Debug.Log("changing scenes");
+        //currentScene.nextScene = scenes[/*die.GetComponent<Die>().getCurrFace()*/1]; 
+        bottomBar.PlayScene(next);
+        /*if (!next)
+        {
+            //bottomBar.PlayScene(next);
+            currentScene.nextScene = next;
+        }
+        else
+        {
+            currentScene = currentScene.nextScene;
+        }
+        bottomBar.PlayScene(next);
+        */
     }
 }
