@@ -7,7 +7,7 @@ public class GameController : MonoBehaviour
     public StoryScene currentScene;
     public BottomBarController bottomBar;
     public GameObject die;
-    [SerializeField] private StoryScene[] scenes = { null, null };
+    //[SerializeField] private StoryScene[] scenes = { null, null };
 
 
 
@@ -28,8 +28,8 @@ public class GameController : MonoBehaviour
                 if (bottomBar.IsLastSentence())
                 {
                     Debug.Log("changing scenes");
-                    currentScene.nextScene = scenes[/*die.GetComponent<Die>().getCurrFace()*/1]; 
-                    //currentScene = currentScene.nextScene;
+                    //currentScene.nextScene = scenes[/*die.GetComponent<Die>().getCurrFace()*/1]; 
+                    currentScene = currentScene.nextScene;
                     bottomBar.PlayScene(currentScene);
                 }
                 bottomBar.PlayNextSentence();

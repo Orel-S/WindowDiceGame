@@ -55,7 +55,7 @@ public class BottomBarController : MonoBehaviour
         barText.text = "";
         state = State.PLAYING;
         int wordIndex = 0;
-
+        Debug.Log(text);
         while(state != State.COMPLETED)
         {
             barText.text += text[wordIndex];

@@ -1002,12 +1002,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb78b3e84b960341935aa5d2e1572ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: {fileID: 11400000, guid: 6d9771c9c16a7cd4f9e7e22690934ffb, type: 2}
+  currentScene: {fileID: 11400000, guid: 1418b28d7940386419655429a8004e84, type: 2}
   bottomBar: {fileID: 1890326423}
   die: {fileID: 0}
-  scenes:
-  - {fileID: 11400000, guid: 6d9771c9c16a7cd4f9e7e22690934ffb, type: 2}
-  - {fileID: 11400000, guid: 1418b28d7940386419655429a8004e84, type: 2}
 --- !u!1001 &516939507
 PrefabInstance:
   m_ObjectHideFlags: 0

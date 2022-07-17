@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5f00fa657dcc1445930ea81a4b42ab6, type: 3}
-  m_Name: 1
+  m_Name: 1redo
   m_EditorClassIdentifier: 
   sentences:
-  - text: Ay Yo im jimbo from coney island
+  - text: ay yo im jimbo from coney island
     speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
-  - text: hi jimbo, im timmy from the norvinsk special economic region
+  - text: hi jimbo im timmy from the norvinsk special economic region
     speaker: {fileID: 11400000, guid: e87f3227ea6a1ae48996089183dce018, type: 2}
   background: {fileID: 21300000, guid: b0551ae08aedb3c47a87442bc7b75262, type: 3}
-  nextScene: {fileID: 11400000, guid: 6d9771c9c16a7cd4f9e7e22690934ffb, type: 2}
+  nextScene: {fileID: 11400000}

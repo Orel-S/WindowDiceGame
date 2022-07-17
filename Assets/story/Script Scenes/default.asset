@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: default
   m_EditorClassIdentifier: 
   sentences:
+  - text: 
+    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: this is the dogshit default text
     speaker: {fileID: 11400000, guid: e87f3227ea6a1ae48996089183dce018, type: 2}
+  - text: ' default text 2 electric boogalloo'
+    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   background: {fileID: 0}
-  nextScene: {fileID: 11400000, guid: 1418b28d7940386419655429a8004e84, type: 2}
+  nextScene: {fileID: 11400000, guid: d7ef9e0fc346b6740bde63ac63d88c2f, type: 2}
