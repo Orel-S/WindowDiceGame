@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e863ff4d0c4dbd49be9eaf04f54f076, type: 3}
-  m_Name: Jimbo
+  m_Name: Cosplay
   m_EditorClassIdentifier: 
-  speakerName: Jimbo
-  textColor: {r: 0.6137939, g: 0.12495552, b: 0.6792453, a: 1}
+  speakerName: The Cosplayer
+  textColor: {r: 0.003921569, g: 0.9294118, b: 1, a: 1}

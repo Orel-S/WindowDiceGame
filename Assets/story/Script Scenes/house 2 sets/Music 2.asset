@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5f00fa657dcc1445930ea81a4b42ab6, type: 3}
+  m_Name: Music 2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: 
+    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
+  - text: "That\u2019s a cute little plant keychain, the guy must be a friend with
+      the plant person. A little friendship chain. "
+    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
+  - text: 'How are you holding up? '
+    speaker: {fileID: 11400000, guid: 16d3bc8d7b78345488d4899634c0b008, type: 2}
+  - text: 'I was gonna ask you the same thing. '
+    speaker: {fileID: 11400000, guid: dff3180f1e64a7a42b31ab92f696549f, type: 2}
+  - text: "I mean\u2026 my girlfriend\u2019s dead. I don\u2019t know\u2026 I\u2019m
+      obviously sad, this is a tragedy but\u2026 I\u2019m not as sad as I should
+      be. "
+    speaker: {fileID: 11400000, guid: 16d3bc8d7b78345488d4899634c0b008, type: 2}
+  - text: There is no right way to grieve.
+    speaker: {fileID: 11400000, guid: dff3180f1e64a7a42b31ab92f696549f, type: 2}
+  - text: "No I know it\u2019s just\u2026 you know our relationship was rocky and
+      those were complicated emotions and now this I just. I don\u2019t know what
+      I feel\u2026 "
+    speaker: {fileID: 11400000, guid: 16d3bc8d7b78345488d4899634c0b008, type: 2}
+  - text: "I know I\u2019m\u2026 I\u2019m sorry"
+    speaker: {fileID: 11400000, guid: dff3180f1e64a7a42b31ab92f696549f, type: 2}
+  - text: "No don\u2019t be it\u2019s fine\u2026 you being here just to listen is
+      great, thank you. "
+    speaker: {fileID: 11400000, guid: 16d3bc8d7b78345488d4899634c0b008, type: 2}
+  background: {fileID: 0}
+  nextScene: {fileID: 0}

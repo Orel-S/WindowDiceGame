@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5f00fa657dcc1445930ea81a4b42ab6, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Ay Yo im jimbo from coney island
+    speaker: {fileID: 0}
+  - text: hi jimbo, im timmy from the norvinsk special economic region
+    speaker: {fileID: 11400000, guid: e87f3227ea6a1ae48996089183dce018, type: 2}
+  background: {fileID: 21300000, guid: b0551ae08aedb3c47a87442bc7b75262, type: 3}
+  nextScene: {fileID: 11400000, guid: 6d9771c9c16a7cd4f9e7e22690934ffb, type: 2}

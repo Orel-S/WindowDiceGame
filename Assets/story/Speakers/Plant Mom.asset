@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e863ff4d0c4dbd49be9eaf04f54f076, type: 3}
+  m_Name: Plant Mom
+  m_EditorClassIdentifier: 
+  speakerName: The Plant Parent
+  textColor: {r: 0.21960786, g: 0.4431373, b: 0.5882353, a: 0}
