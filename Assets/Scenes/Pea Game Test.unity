@@ -308,6 +308,10 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6331991789614275860, guid: 26823548be41eb04793cc2158db45470, type: 3}
+      propertyPath: currentPea
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331991789614275860, guid: 26823548be41eb04793cc2158db45470, type: 3}
       propertyPath: peas.Array.data[0]
       value: 
       objectReference: {fileID: 1270950263}
@@ -429,6 +433,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6331991789614275860, guid: 26823548be41eb04793cc2158db45470, type: 3}
+      propertyPath: currentPea
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331991789614275860, guid: 26823548be41eb04793cc2158db45470, type: 3}
       propertyPath: peas.Array.data[0]
       value: 
       objectReference: {fileID: 1270950263}
@@ -514,11 +522,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6331991789614275864, guid: 26823548be41eb04793cc2158db45470, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 375.9604
+      value: 177
       objectReference: {fileID: 0}
     - target: {fileID: 6331991789614275864, guid: 26823548be41eb04793cc2158db45470, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -203.97858
+      value: -300
       objectReference: {fileID: 0}
     - target: {fileID: 6331991789614275864, guid: 26823548be41eb04793cc2158db45470, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -654,6 +662,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6331991789614275860, guid: 26823548be41eb04793cc2158db45470, type: 3}
+      propertyPath: currentPea
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331991789614275860, guid: 26823548be41eb04793cc2158db45470, type: 3}
       propertyPath: peas.Array.data[0]
       value: 
       objectReference: {fileID: 1270950263}
@@ -739,11 +751,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6331991789614275864, guid: 26823548be41eb04793cc2158db45470, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -417.0396
+      value: -186
       objectReference: {fileID: 0}
     - target: {fileID: 6331991789614275864, guid: 26823548be41eb04793cc2158db45470, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -174.97858
+      value: -269
       objectReference: {fileID: 0}
     - target: {fileID: 6331991789614275864, guid: 26823548be41eb04793cc2158db45470, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -844,8 +856,10 @@ MonoBehaviour:
   - {fileID: 979791880}
   - {fileID: 498920249}
   - {fileID: 914048704}
-  PissFinder: {fileID: 0}
+  PeaFinder: {fileID: 0}
   currentPea: 0
+  PeasPopped: 0
+  gameIsWon: 0
 --- !u!1001 &1661981315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -860,6 +874,10 @@ PrefabInstance:
     - target: {fileID: 3009065532888326866, guid: 26823548be41eb04793cc2158db45470, type: 3}
       propertyPath: m_text
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331991789614275860, guid: 26823548be41eb04793cc2158db45470, type: 3}
+      propertyPath: currentPea
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6331991789614275860, guid: 26823548be41eb04793cc2158db45470, type: 3}
       propertyPath: peas.Array.data[0]
@@ -978,6 +996,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pea
       objectReference: {fileID: 0}
+    - target: {fileID: 3009065532888326866, guid: 26823548be41eb04793cc2158db45470, type: 3}
+      propertyPath: m_margin.z
+      value: 91.50183
+      objectReference: {fileID: 0}
+    - target: {fileID: 3009065532888326866, guid: 26823548be41eb04793cc2158db45470, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 32
+      objectReference: {fileID: 0}
     - target: {fileID: 6331991789614275860, guid: 26823548be41eb04793cc2158db45470, type: 3}
       propertyPath: currentPea
       value: 0
@@ -1072,11 +1098,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6331991789614275864, guid: 26823548be41eb04793cc2158db45470, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -323.5
+      value: -121
       objectReference: {fileID: 0}
     - target: {fileID: 6331991789614275864, guid: 26823548be41eb04793cc2158db45470, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 52.1
+      value: 114
       objectReference: {fileID: 0}
     - target: {fileID: 6331991789614275864, guid: 26823548be41eb04793cc2158db45470, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1109,6 +1135,22 @@ PrefabInstance:
     - target: {fileID: 6331991789614275867, guid: 26823548be41eb04793cc2158db45470, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: Peas, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8534746907237788200, guid: 26823548be41eb04793cc2158db45470, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 59.8855
+      objectReference: {fileID: 0}
+    - target: {fileID: 8534746907237788200, guid: 26823548be41eb04793cc2158db45470, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 40.6928
+      objectReference: {fileID: 0}
+    - target: {fileID: 8534746907237788200, guid: 26823548be41eb04793cc2158db45470, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 10.2533
+      objectReference: {fileID: 0}
+    - target: {fileID: 8534746907237788200, guid: 26823548be41eb04793cc2158db45470, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -7.8464
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26823548be41eb04793cc2158db45470, type: 3}
