@@ -6,24 +6,11 @@ public class Die : MonoBehaviour
 {
     [SerializeField] private int[] Faces = { 1, 2, 3, 4, 5, 6 };
     [SerializeField] private int currFace;
-    // Start is called before the first frame update
-    void Start()
-    {
-        Roll();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        //This will need to be removed later.
-        //if (Input.GetKeyDown(KeyCode.F))
-        //{
-        //    Roll();
-        //}
-    }
+    public int RollsSoFar = -5;
 
     public void Roll()
     {
+        RollsSoFar++;
         currFace = Faces[Random.Range(0, Faces.Length - 1)];
         switch (currFace)
         {

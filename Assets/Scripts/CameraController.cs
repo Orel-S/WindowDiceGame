@@ -9,7 +9,7 @@ public class CameraController : MonoBehaviour
 
     public Camera[] cameras;
     private int currentCameraIndex;
-    public GameObject die, progressBar, duckMinigame, peaMinigame;
+    public GameObject die, progressBar, duckMinigame, peaMinigame, scriptHolder, eventSystem;
     public int dieResult;
     private bool isPlayingMinigame = false;
     private int currMiniIndex = -1;
@@ -27,6 +27,9 @@ public class CameraController : MonoBehaviour
         peaMinigame = GameObject.Find("PeaParent");
         peaMinigame.SetActive(false);
         //Hide progress bar
+        //comment
+        scriptHolder = GameObject.Find("ScriptHolder");
+        eventSystem = GameObject.Find("EventSystem");
         progressBar.transform.localScale = new Vector3(0, 0, 0);
         die.GetComponent<MinigameController>().PauseMinigameTimer();
         currentCameraIndex = 0;
@@ -100,7 +103,10 @@ public class CameraController : MonoBehaviour
             }
             else if (progressBar.GetComponent<Slider>().value >= progressBar.GetComponent<Slider>().maxValue)
             {
+                Debug.Log(die.GetComponent<Die>().RollsSoFar);
+                Debug.Log("rolling");
                 die.GetComponent<Die>().Roll();
+                Debug.Log(die.GetComponent<Die>().RollsSoFar);
                 dieResult = die.GetComponent<Die>().getCurrFace();                      //these two lines super sus
                 die.GetComponent<DieSpritePosition>().dieToFront(dieResult);            //^
                 Debug.Log("C button has been pressed. Switching to rolled camera");
@@ -134,7 +140,10 @@ public class CameraController : MonoBehaviour
         //Show progress bar, just in case it is hidden
         //This is inefficient but unnoticeable at small scale.
         progressBar.transform.localScale = new Vector3(2, 2, 2);
-
+        //TODO: CHANGE BG IMAGE HERE
+        Debug.Log(die.GetComponent<Die>().RollsSoFar);
+        Debug.Log(((die.GetComponent<Die>().RollsSoFar - 1) * 5) + currentCameraIndex);
+        eventSystem.GetComponent<GameController>().ChangeScene(scriptHolder.GetComponent<ScriptHolder>().storyScenes[((die.GetComponent<Die>().RollsSoFar - 1) * 5)  + currentCameraIndex]);
         progressBar.GetComponent<ProgressBar>().Reset();
         Debug.Log("Camera with name: " + cameras[currentCameraIndex].GetComponent<Camera>().name + ", is now enabled");
         //BANDAID FIX, DO NOT DELETE
