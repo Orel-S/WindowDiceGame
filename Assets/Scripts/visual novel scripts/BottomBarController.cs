@@ -42,6 +42,12 @@ public class BottomBarController : MonoBehaviour
         return state == State.COMPLETED; 
     }
 
+    public bool IsLastSentence()
+    {
+        Debug.Log("is last sentence");
+        return sentenceIndex + 1 == currentScene.sentences.Count;
+    }
+
     //I believe this bit is what runs the text at a delay
     private IEnumerator TypeText(string text)
     {

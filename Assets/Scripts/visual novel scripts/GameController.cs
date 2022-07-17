@@ -6,9 +6,14 @@ public class GameController : MonoBehaviour
 {
     public StoryScene currentScene;
     public BottomBarController bottomBar;
-    
+    public GameObject die;
+    [SerializeField] private StoryScene[] scenes = { null, null };
+
+
+
     void Start()
     {
+        die = GameObject.Find("Land");
         Debug.Log("calls PlayScene");
         bottomBar.PlayScene(currentScene);
     }
@@ -20,6 +25,13 @@ public class GameController : MonoBehaviour
         {
             if (bottomBar.IsCompleted())
             {
+                if (bottomBar.IsLastSentence())
+                {
+                    Debug.Log("changing scenes");
+                    currentScene.nextScene = scenes[/*die.GetComponent<Die>().getCurrFace()*/1]; 
+                    //currentScene = currentScene.nextScene;
+                    bottomBar.PlayScene(currentScene);
+                }
                 bottomBar.PlayNextSentence();
             }
         }

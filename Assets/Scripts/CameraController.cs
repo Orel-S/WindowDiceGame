@@ -10,7 +10,7 @@ public class CameraController : MonoBehaviour
     public Camera[] cameras;
     private int currentCameraIndex;
     public GameObject die, progressBar, duckMinigame, peaMinigame;
-    private int dieResult;
+    public int dieResult;
     private bool isPlayingMinigame = false;
     private int currMiniIndex = -1;
 
