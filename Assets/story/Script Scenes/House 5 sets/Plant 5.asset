@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Plant 5
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "Hi, ya this is Vic. Um I gotta give a notice, I won\u2019t be coming into
       work anymore. I\u2019m sorry I- I can\u2019t work there anymore. Ya I\u2019m
       sorry I\u2019ll return everything. Ya thanks. Ya. Bye."

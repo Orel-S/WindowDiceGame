@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Party Girl 4
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "She seems to be looking through old photos. She looks like she\u2019s
       had the light drained from her and has gone into mourning."
     speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}

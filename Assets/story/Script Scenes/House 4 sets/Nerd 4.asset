@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Nerd 4
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: ': Packing his bag for an early day, I guess. That makes sense, he seems
       like every second of his life is planned out.'
     speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}

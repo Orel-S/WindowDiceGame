@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Plant 3
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "That is a lot of clicking\u2026 a lot fidgeting, something seems to be
       bothering them. I wonder what\u2019s on their mind."
     speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}

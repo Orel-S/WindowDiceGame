@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Cosplayer 2
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "That\u2019s a cute little plant keychain, the guy must be a friend with
       the plant person. A little friendship chain. "
     speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}

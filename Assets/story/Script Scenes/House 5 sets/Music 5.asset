@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Music 5
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "I was just playing a gig, one gig and you\u2019re just gone. What the
       hell I\u2019m. I\u2019m sorry you didn\u2019t deserve this. You should have
       skipped work and come to my show, maybe then it wouldn\u2019t have happened. "

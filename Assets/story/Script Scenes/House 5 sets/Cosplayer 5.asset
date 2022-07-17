@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Cosplayer 5
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "Are you here? Ok perfect I\u2019m ready to get the hell out of here. Ya
       don\u2019t worry about anything I\u2019ll have umm.. the person who lives across
       the hall can lock up after me. Ok perfect I\u2019m ready, see you in a second! "

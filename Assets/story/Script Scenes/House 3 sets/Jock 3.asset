@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Jock 3
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "Hi mom. I\u2019m good how are you? Ya things have been strange\u2026 Ever
       since Daisy passed things have been quiet yet loud. Ya I\u2019m trying to be
       there for her. I\u2019m trying to figure out how to support. Ya you\u2019re

@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Jock 5
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "Does that say Scrapbooking 101? Why would sh- she wanted to help the victim\u2019s
       friend put together a scrapbook. This girl may be quiet and stoic, but she
       is genuinely trying to her the girl through this tough time. I only see support

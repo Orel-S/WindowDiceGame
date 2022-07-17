@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Party Girl 2
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "There\u2019s a birthday card on the table\u2026 from Daisy\u2026 her and
       the deceased must have been friends\u2026"
     speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}

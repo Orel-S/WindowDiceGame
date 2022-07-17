@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Nerd 3
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "Hey what\u2019s up? Ya I\u2019m just working on the assignment, not looking
       to pull an all nighter with it. Ya I can help you out what are you looking
       to do? You know what let me just send you the files for that. Ya no problem

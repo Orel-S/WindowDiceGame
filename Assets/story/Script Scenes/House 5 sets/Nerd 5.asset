@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Nerd 5
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "Hello darling, how\u2019s your night been? I\u2019m fine just packing
       up for tomorrow. You have a morning class, right? Ok perfect I\u2019ll pick
       you up after class and we can grab something to eat. Alrighty then I will see

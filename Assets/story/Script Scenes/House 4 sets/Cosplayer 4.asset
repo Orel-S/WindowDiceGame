@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Cosplayer 4
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "Ya this guy is fully checked out of anything that is happening in the
       house. He\u2019s ready to do his own thing. "
     speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}

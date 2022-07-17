@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Cosplayer 3
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "This guy really hasn\u2019t left his room this whole time, he\u2019s really
       just focusing on his business. "
     speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}

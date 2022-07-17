@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Jock 4
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: 'Hey, um do you have a second? '
     speaker: {fileID: 11400000, guid: dff3180f1e64a7a42b31ab92f696549f, type: 2}
   - text: Sure *stops shadow boxing*

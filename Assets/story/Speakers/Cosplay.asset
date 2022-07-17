@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Cosplay
   m_EditorClassIdentifier: 
   speakerName: The Cosplayer
-  textColor: {r: 0.003921569, g: 0.9294118, b: 1, a: 1}
+  textColor: {r: 0.1254902, g: 0.9333334, b: 0.96470594, a: 1}

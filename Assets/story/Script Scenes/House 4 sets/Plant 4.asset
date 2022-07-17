@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Plant 4
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "For a plant parent this person seems like they\u2019re starting to neglect
       their plants\u2026 they\u2019ve already got one starting to droop. "
     speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}

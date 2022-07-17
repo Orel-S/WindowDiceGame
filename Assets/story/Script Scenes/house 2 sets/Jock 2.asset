@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Jock 2
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "Is that a photo with the other girl in the building? Oh that\u2019s cute,
       they seem close. "
     speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}

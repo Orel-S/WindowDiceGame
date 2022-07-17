@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Nerd 2
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "Wow this guy has a pretty packed schedule, no wonder he\u2019s got so
       many books everywhere, the guy needs to stay on top of things."
     speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}

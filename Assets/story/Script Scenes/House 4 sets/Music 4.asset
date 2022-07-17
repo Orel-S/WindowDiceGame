@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Music 4
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 11400000, guid: 9ef17cb8f5809564fa5bd30b6e8beb71, type: 2}
   - text: "Our music guy over here looks pretty concerned. I mean rightfully so having
       your friend barge out of your room after seeing a picture of your dead girlfriend
       isn\u2019t necessarily a good time. "
