@@ -6,7 +6,12 @@ public class Die : MonoBehaviour
 {
     [SerializeField] private int[] Faces = { 1, 2, 3, 4, 5, 6 };
     [SerializeField] private int currFace;
-    public int RollsSoFar = -5;
+    public int RollsSoFar = 0;
+
+    public void Start()
+    {
+        RollsSoFar = 0;
+    }
 
     public void Roll()
     {
