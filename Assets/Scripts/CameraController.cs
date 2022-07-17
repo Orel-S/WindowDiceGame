@@ -29,7 +29,7 @@ public class CameraController : MonoBehaviour
         //Hide progress bar
         //comment
         scriptHolder = GameObject.Find("ScriptHolder");
-        eventSystem = GameObject.Find("EventSystem");
+        eventSystem = GameObject.Find("Canvas");
         progressBar.transform.localScale = new Vector3(0, 0, 0);
         die.GetComponent<MinigameController>().PauseMinigameTimer();
         currentCameraIndex = 0;
